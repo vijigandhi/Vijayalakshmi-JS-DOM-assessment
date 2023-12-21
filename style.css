@@ -185,7 +185,7 @@ h1{
 }
 
 #child_div:nth-child(odd) {
-    background-color: rgba(99, 83, 159, 0.3);
+    background-color: rgba(174, 164, 209, 0.3);
 }
 
 ul{

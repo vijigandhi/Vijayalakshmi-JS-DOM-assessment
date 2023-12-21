@@ -62,7 +62,7 @@ formData.addEventListener("submit", (event) => {
         }
 
         del.addEventListener("click", () => {
-          if (confirm("Delete the row permanently...?")) {
+          if (confirm(ul1.innerHTML+": this row deleted permanently...?")) {
             let deletedAmount = parseInt(ul2.innerHTML);
             let currentTotal = parseInt(total_amount.innerText);
             let newTotal = currentTotal - deletedAmount;
